@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farhad | Frontend Developer</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <!-- Background Gradient Animation -->
+    <div class="bg-gradient">
+      <div class="gradient-circle circle-1"></div>
+      <div class="gradient-circle circle-2"></div>
+      <div class="gradient-circle circle-3"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <a href="#home" class="logo">Farhad</a>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <button class="theme-toggle">
+            <i class="fas fa-moon"></i>
+          </button>
+          <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+      <div class="container">
+        <div class="home-content">
+          <div class="home-text">
+            <p class="greeting">Hello, I'm</p>
+            <h1 class="name">Farhad</h1>
+            <h3 class="role">Frontend Developer</h3>
+            <p class="home-desc">
+              A passionate frontend developer from Azerbaijan specializing in
+              creating beautiful, responsive, and interactive web experiences
+              with modern technologies.
+            </p>
+            <a href="#contact" class="btn">Get In Touch</a>
+          </div>
+          <div class="home-image">
+            <img src="/download.jpg" alt="Farhad Profile" class="profile-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <div class="code-block">
+              <span class="code-keyword">const</span>
+              <span class="code-property">farhad</span> = {<br />
+              &nbsp;&nbsp;<span class="code-property">name</span>:
+              <span class="code-string">"Farhad"</span>,<br />
+              &nbsp;&nbsp;<span class="code-property">title</span>:
+              <span class="code-string">"Frontend Developer"</span>,<br />
+              &nbsp;&nbsp;<span class="code-property">location</span>:
+              <span class="code-string">"Azerbaijan"</span>,<br />
+              &nbsp;&nbsp;<span class="code-property">languages</span>: [<span
+                class="code-string"
+                >"Azerbaijani"</span
+              >, <span class="code-string">"English"</span>,
+              <span class="code-string">"Russian"</span>],<br />
+              &nbsp;&nbsp;<span class="code-property">hobbies</span>: [<span
+                class="code-string"
+                >"Coding"</span
+              >, <span class="code-string">"Reading"</span>,
+              <span class="code-string">"Traveling"</span>],<br />
+              &nbsp;&nbsp;<span class="code-property">favouriteQuote</span>:
+              <span class="code-string"
+                >"Simplicity is the ultimate sophistication."</span
+              >,<br />
+              &nbsp;&nbsp;<span class="code-function">getExperience</span>()
+              {<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">return</span>
+              <span class="code-string"
+                >"5+ years of creating impactful digital experiences"</span
+              >;<br />
+              &nbsp;&nbsp;},<br />
+              &nbsp;&nbsp;<span class="code-function">sayHi</span>() {<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">return</span>
+              <span class="code-string"
+                >"Thanks for visiting my portfolio!"</span
+              >;<br />
+              &nbsp;&nbsp;}<br />
+              };<br /><br />
+              <span class="code-comment"
+                >// Let's connect and create something amazing together!</span
+              >
+            </div>
+          </div>
+          <div class="about-skills">
+            <p>
+              I'm a frontend developer with a passion for creating intuitive and
+              responsive web applications. With a strong foundation in modern
+              frontend technologies, I strive to build digital experiences that
+              are both visually appealing and functionally efficient.
+            </p>
+            <p>
+              My journey as a developer has allowed me to work on various
+              projects, giving me a deep understanding of user experience and
+              interface design principles.
+            </p>
+            <h3>Skills</h3>
+            <div class="skills-container">
+              <div class="skill-item">HTML5</div>
+              <div class="skill-item">CSS3</div>
+              <div class="skill-item">JavaScript</div>
+              <div class="skill-item">React</div>
+              <div class="skill-item">Vue.js</div>
+              <div class="skill-item">SASS/SCSS</div>
+              <div class="skill-item">Tailwind CSS</div>
+              <div class="skill-item">Responsive Design</div>
+              <div class="skill-item">Git</div>
+              <div class="skill-item">Webpack</div>
+              <div class="skill-item">RESTful APIs</div>
+              <div class="skill-item">UI/UX Design</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <p>
+          Here are some of the projects I've worked on. Each one represents a
+          unique challenge and learning experience.
+        </p>
+        <div class="projects-container">
+          <div class="project-card">
+            <img
+              src="/api/placeholder/400/240"
+              alt="E-commerce Website"
+              class="project-img"
+            />
+            <div class="project-content">
+              <h3 class="project-title">E-commerce Website</h3>
+              <p class="project-desc">
+                A fully responsive e-commerce platform with user authentication,
+                product filtering, and payment integration.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">React</span>
+                <span class="project-tag">Redux</span>
+                <span class="project-tag">Stripe</span>
+                <span class="project-tag">Firebase</span>
+              </div>
+              <button class="btn btn-sm view-project" data-project="project1">
+                View Details
+              </button>
+            </div>
+          </div>
+          <div class="project-card">
+            <img
+              src="/api/placeholder/400/240"
+              alt="Dashboard Application"
+              class="project-img"
+            />
+            <div class="project-content">
+              <h3 class="project-title">Dashboard Application</h3>
+              <p class="project-desc">
+                An interactive admin dashboard with data visualization, user
+                management, and real-time updates.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Vue.js</span>
+                <span class="project-tag">Chart.js</span>
+                <span class="project-tag">Socket.io</span>
+                <span class="project-tag">Node.js</span>
+              </div>
+              <button class="btn btn-sm view-project" data-project="project2">
+                View Details
+              </button>
+            </div>
+          </div>
+          <div class="project-card">
+            <img
+              src="/api/placeholder/400/240"
+              alt="Travel Blog"
+              class="project-img"
+            />
+            <div class="project-content">
+              <h3 class="project-title">Travel Blog</h3>
+              <p class="project-desc">
+                A content-focused travel blog with a custom CMS, image
+                galleries, and interactive maps.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">SCSS</span>
+                <span class="project-tag">Mapbox</span>
+                <span class="project-tag">WordPress</span>
+              </div>
+              <button class="btn btn-sm view-project" data-project="project3">
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Modals -->
+      <div id="project1Modal" class="project-modal">
+        <div class="modal-content">
+          <button class="close-modal">&times;</button>
+          <img
+            src="/api/placeholder/700/400"
+            alt="E-commerce Website"
+            class="modal-image"
+          />
+          <h2>E-commerce Website</h2>
+          <p>
+            A comprehensive e-commerce solution built with modern web
+            technologies. This project features a responsive design that adapts
+            to any device, providing users with a seamless shopping experience.
+          </p>
+          <h3>Features:</h3>
+          <ul>
+            <li>User authentication and profile management</li>
+            <li>Product catalog with advanced filtering options</li>
+            <li>Shopping cart and wishlist functionality</li>
+            <li>Secure checkout process with Stripe integration</li>
+            <li>Order tracking and history</li>
+            <li>Admin panel for product and order management</li>
+          </ul>
+          <h3>Technologies Used:</h3>
+          <ul>
+            <li>React for the frontend UI</li>
+            <li>Redux for state management</li>
+            <li>Firebase for backend services and authentication</li>
+            <li>Stripe for payment processing</li>
+            <li>SCSS for custom styling</li>
+            <li>Jest for unit testing</li>
+          </ul>
+          <div class="project-buttons">
+            <a href="#" class="btn btn-sm">Visit Website</a>
+            <a href="#" class="btn btn-sm">View Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="project2Modal" class="project-modal">
+        <div class="modal-content">
+          <button class="close-modal">&times;</button>
+          <img
+            src="/api/placeholder/700/400"
+            alt="Dashboard Application"
+            class="modal-image"
+          />
+          <h2>Dashboard Application</h2>
+          <p>
+            A feature-rich admin dashboard designed to visualize and manage
+            complex data sets. The application provides real-time updates and
+            intuitive controls for efficient data management.
+          </p>
+          <h3>Features:</h3>
+          <ul>
+            <li>Interactive data visualization with customizable charts</li>
+            <li>User management system with role-based permissions</li>
+            <li>Real-time notifications and updates</li>
+            <li>Drag-and-drop interface for report building</li>
+            <li>Export functionality for reports and data</li>
+            <li>Dark and light theme options</li>
+          </ul>
+          <h3>Technologies Used:</h3>
+          <ul>
+            <li>Vue.js for frontend development</li>
+            <li>Chart.js for data visualization</li>
+            <li>Socket.io for real-time communication</li>
+            <li>Node.js for backend services</li>
+            <li>MongoDB for database management</li>
+            <li>Tailwind CSS for styling</li>
+          </ul>
+          <div class="project-buttons">
+            <a href="#" class="btn btn-sm">Visit Website</a>
+            <a href="#" class="btn btn-sm">View Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="project3Modal" class="project-modal">
+        <div class="modal-content">
+          <button class="close-modal">&times;</button>
+          <img
+            src="/api/placeholder/700/400"
+            alt="Travel Blog"
+            class="modal-image"
+          />
+          <h2>Travel Blog</h2>
+          <p>
+            A visually stunning travel blog focused on delivering rich content
+            and immersive experiences. The blog features beautifully designed
+            articles, interactive maps, and high-quality image galleries.
+          </p>
+          <h3>Features:</h3>
+          <ul>
+            <li>Custom content management system for easy publishing</li>
+            <li>Interactive maps showing travel destinations</li>
+            <li>Image galleries with lightbox functionality</li>
+            <li>Category and tag-based content organization</li>
+            <li>Social media integration for content sharing</li>
+            <li>Newsletter subscription system</li>
+          </ul>
+          <h3>Technologies Used:</h3>
+          <ul>
+            <li>JavaScript for frontend interactivity</li>
+            <li>SCSS for advanced styling</li>
+            <li>Mapbox for interactive maps</li>
+            <li>WordPress as headless CMS</li>
+            <li>REST API for content delivery</li>
+            <li>Lazy loading for performance optimization</li>
+          </ul>
+          <div class="project-buttons">
+            <a href="#" class="btn btn-sm">Visit Website</a>
+            <a href="#" class="btn btn-sm">View Code</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <p>My professional journey in the world of frontend development.</p>
+        <div class="experience-timeline">
+          <div class="timeline-line"></div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2023 - Present</div>
+            <h3 class="timeline-role">Senior Frontend Developer</h3>
+            <p class="timeline-company">TechVision Solutions</p>
+            <p class="timeline-desc">
+              Lead the frontend development team in creating enterprise-level
+              web applications. Implemented modern frontend architecture and
+              mentored junior developers. Collaborated with UX/UI designers to
+              create intuitive user interfaces.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2020 - 2023</div>
+            <h3 class="timeline-role">Frontend Developer</h3>
+            <p class="timeline-company">Digital Innovations Inc.</p>
+            <p class="timeline-desc">
+              Developed responsive web applications using React and Vue.js.
+              Implemented state management solutions and optimized application
+              performance. Worked in an agile team environment with daily
+              standups and sprint planning.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2018 - 2020</div>
+            <h3 class="timeline-role">UI Developer</h3>
+            <p class="timeline-company">Creative Web Solutions</p>
+            <p class="timeline-desc">
+              Created responsive and accessible user interfaces for various
+              clients. Implemented pixel-perfect designs from Figma and Adobe
+              XD. Collaborated with backend developers to integrate frontend
+              with APIs.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2017 - 2018</div>
+            <h3 class="timeline-role">Frontend Intern</h3>
+            <p class="timeline-company">WebTech Azerbaijan</p>
+            <p class="timeline-desc">
+              Assisted senior developers in building website components. Learned
+              modern frontend development practices and collaborated on small to
+              medium-sized projects. Focused on HTML, CSS, and JavaScript
+              fundamentals.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <p>
+          Feel free to reach out if you have any questions or want to work
+          together.
+        </p>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h3>Email</h3>
+                <p>farhad@example.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <h3>Phone</h3>
+                <p>+994 50 123 4567</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h3>Location</h3>
+                <p>Baku, Azerbaijan</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-input"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-input"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  class="form-input"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-input form-textarea"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Font Awesome for Icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+
+    <!-- Main JavaScript -->
+   <script type="module" src=""></script>
+  </body>
+</html>
